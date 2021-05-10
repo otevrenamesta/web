@@ -83,9 +83,26 @@ $primary-invert: $pink-invert;
 .hodnoty span.idx {
   color: #166045;
 }
+.basicinfo h2 {
+  margin: 2em 0;
+}
+.basicinfo p {
+  font: normal normal 600 28px/36px $defaultFont;
+  letter-spacing: 0px;
+  color: #0F0787;
+}
+.basicinfo {
+  padding-right: 4em;
+}
+.partneri h2 {
+  margin-bottom: 1em;
+}
+.partneri img {
+  margin: 1em 0;
+}
 
 .iconedList h3 {
-  font: normal normal bold 14px/73px $defaultFont;
+  font: normal normal bold 14px/20px $defaultFont;
   letter-spacing: 0.28px;
   color: #19DE96;
   margin-bottom: 0.5em;

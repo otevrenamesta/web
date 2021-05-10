@@ -9,12 +9,13 @@ children:
       Specializujeme se na Technickou, právní 
       a metodickou expertízu v oblasti digitalizace samospráv.
   - component: composition
-    class: columns is-desktop mylightblue p-5
+    class: container>columns is-desktop mylightblue p-6
     children:
       - component: composition
-        class: column is-three-quarters p-6
+        class: column is-three-quarters
         children:
           - component: MDText
+            class: basicinfo
             content: |
               Specializujeme se na Technickou, právní a metodickou
               expertízu v oblasti digitalizace samospráv.
@@ -33,14 +34,17 @@ children:
               - title: Znalostní databáze
                 icon: http://data.vxk.cz/webom/DB.svg
                 desc: Znalosti, příklady dobré praxe a know-how k opakovanému využití pro samosprávné celky.
-      - component: MDText
-        class: column is-one-quarter is-flex is-flex-direction-column is-justify-content-space-around
-        content: |
-          ## naši partneři
+      - component: composition
+        class: column is-one-quarter partneri
+        children: 
+          - component: MDText
+            content: '## naši partneři'
+          - component: MDText
+            class: is-flex is-flex-direction-column is-justify-content-space-around
+            content: |
+              [![operator ICT](http://data.vxk.cz/webom/logo-oict.svg)](https://operatorict.cz/)
 
-          [![operator ICT](http://data.vxk.cz/webom/logo-oict.svg)](https://operatorict.cz/)
-          
-          [![Cesko digital](http://data.vxk.cz/webom/logo-cesko-digital.svg)](https://cesko.digital/)
+              [![Cesko digital](http://data.vxk.cz/webom/logo-cesko-digital.svg)](https://cesko.digital/)
   - component: projectSection
     title: Cityvizor
     subtitle: Transparentní hospodaření pro každé město a obec

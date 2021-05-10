@@ -1,7 +1,7 @@
 export default {
   props: ['data'],
   template: `
-<section class="hero is-relative">
+<div class="container myhero">
 
   <img class="logo" src="http://data.vxk.cz/webom/logo-om.svg" />
   
@@ -18,6 +18,6 @@ export default {
     <i class="fab fa-gitlab"></i>
   </div>
 
-</section>
+</div>
   `
 }

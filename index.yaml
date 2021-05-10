@@ -92,10 +92,9 @@ children:
     class: container>columns is-desktop
     children:
       - component: composition
-        class: column myyellow circle is-flex is-justify-content-center is-align-items-center
+        class: column myyellow circle basicinfo2
         children:
         - component: MDText
-          class: column is-half
           content: |
             Otevřená města jsou neziskovou organiazcí založenou s cílem rozvoje využití otevřených
             řešení v rámci místních samospráv v České republice. K naplnění tohoto cíle slouží vývoj
@@ -112,13 +111,11 @@ children:
         class: column mygreen p-6 hodnoty
         children:
           - component: composition
-            class: columns
+            class: is-flex is-justify-content-space-between mb-4
             children:
               - component: MDText
-                class: column
                 content: '## Naše hodnoty'
               - component: MDText
-                class: column
                 content: '[více o nás](/o-nas)'
           - component: hodnoty
             list:
@@ -132,7 +129,7 @@ children:
                 icon: http://data.vxk.cz/webom/icon-innovation.svg
                 desc: Inovace jako předpoklad konkurenceschopnosti našich řešení a aplikací.
   - component: composition
-    class: columns is-desktop mydarkblue mt-6 mycontact
+    class: container>columns is-desktop mydarkblue mt-6 mycontact
     children:
       - component: MDText
         class: column p-6

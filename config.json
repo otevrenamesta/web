@@ -1,0 +1,22 @@
+{
+   "title": "Otevřená města",
+   "lang": "cs",
+   "twitter": null,
+   "facebook": "https://www.facebook.com/taborskasetkani",
+   "instagram": null,
+   "cdn": "http://data.vxk.cz/ts/wp-content/uploads",
+   "menu": [
+     {
+        "label": "O nás",
+        "link": "o-nás"
+     },
+     {
+        "label": "Projekty",
+        "link": "projekty"
+     },
+     {
+        "label": "Stát se členem",
+        "link": "stat-se-clenem"
+     }
+   ]
+}

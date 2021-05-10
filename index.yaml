@@ -1,0 +1,147 @@
+title: Titulní stránka
+desc: stranka pro TS
+updated_at: 2021-01-18T12:47:37.254Z
+layout: default
+children:
+  - component: hero
+    title: Partner pro digitalizaci samospráv
+    content: |
+      Lorem ipsum pecializujeme se na Technickou, právní 
+      a manažerskou expertízu v oblasti digitalizace samospráv.
+  - component: composition
+    class: columns is-desktop mylightblue p-5
+    children:
+      - component: composition
+        class: column is-three-quarters p-6
+        children:
+          - component: MDText
+            content: |
+              Lorem ipsum pecializujeme se na Technickou, právní a manažerskou
+              expertízu v oblasti digitalizace samospráv.
+
+              Máme bohaté zkušenosti s budováním aplikací na míru pro samosprávní celky
+
+              ## nabízíme
+          - component: iconedList
+            list:
+              - title: Konzultace
+                icon: http://data.vxk.cz/webom/KONZULTACE.svg
+                desc: Specializujeme se na Technickou, právní a manažerskou expertízu v oblasti digitalizace samospráv.
+              - title: Vývoj software
+                icon: http://data.vxk.cz/webom/DEV.svg
+                desc: Máme bohaté zkušenosti s budováním aplikací na míru pro samosprávní celky.
+              - title: Znalostní databáze
+                icon: http://data.vxk.cz/webom/DB.svg
+                desc: Dělíme se o know-how existujících projektů, postupů a podnětů k opakovanému využití
+      - component: MDText
+        class: column is-one-quarter is-flex is-flex-direction-column is-justify-content-space-around
+        content: |
+          ## naši partneři
+
+          [![operator ICT](http://data.vxk.cz/webom/logo-oict.svg)](http://www.seznam.cz)
+          
+          [![Cesko digital](http://data.vxk.cz/webom/logo-cesko-digital.svg)](http://www.seznam.cz)
+  - component: projectSection
+    title: Cityvizor
+    subtitle: Transparentní hospodaření pro každé město a obec
+    content: |
+      Opensource projekt, původně z dílny Ministerstva financí ČR,
+      přináší přehlednou vizualizaci rozpočtu obce s detailními daty
+      až na úroveň jednotlivých faktur
+      a otevírá tím její hospodaření.
+
+      Lorem ipsum je označení pro standardní pseudolatinský text užívaný
+      v grafickém designu a navrhování jako demonstrativní výplňový text
+      při vytváření pracovních.
+
+      ![img](https://cityvizor.cz/landing/img/logo.5ef0e965.svg)
+    image: http://data.vxk.cz/webom/illustration-cityvizor.svg
+  - component: projectSection
+    title: Dotační Software 2
+    switched: true
+    subtitle: Podávání žádostí o obecní dotaci a jejich správa
+    content: |
+      Dotační Software nechyla vyvinout Praha 3 pro svou potřebu
+      a využila jej již ve třech dotačních ročnících.
+      Na členské schůzi spolku se nabidka jeho uvolnění i pro další
+      obce z úst Štěpána Štrébla setkala s příznivým ohlasem.
+      Městká část tedy zahájila potřebné kroky, které v rovině
+      politicko-organizační vyvrcholily 2019-10,11 schválením radou
+      MČ a vedením SZM.
+
+      Vedlejším zobecňujícím efektem bylo jednám zastupitelstva,
+      které zavázalo Prahu 3 napříště zadávat vývoj softwaru pod svobodnu licencí.
+    image: http://data.vxk.cz/webom/illustration-dsw2.svg
+  - component: projectSection
+    title: Paro 2
+    subtitle: Participativní rozpočet pro občany samospráv
+    content: |
+      Opensource projekt, původně z dílny Ministerstva financí ČR,
+      přináší přehlednou vizualizaci rozpočtu obce s detailními daty
+      až na úroveň jednotlivých faktur
+      a otevírá tím její hospodaření.
+
+      Lorem ipsum je označení pro standardní pseudolatinský text užívaný
+      v grafickém designu a navrhování jako demonstrativní výplňový text
+      při vytváření pracovních.
+    image: http://data.vxk.cz/webom/illustration-paro2.svg
+  - component: composition
+    class: container>columns is-desktop
+    children:
+      - component: composition
+        class: column myyellow circle is-flex is-justify-content-center is-align-items-center
+        children:
+        - component: MDText
+          class: column is-half
+          content: |
+            Jsme nezisková organiazce, která pomáhá vyvinout Praha 3
+            pro svou potřebu a využila jej již ve třech dotačních ročnících.
+            Na členské schůzi spolku se nabidka jeho uvolnění i pro další obce z úst
+            Štěpána Štrébla setkala s příznivým ohlasem.
+
+            Městká část tedy zahájila potřebné kroky, které v rovině politicko-organizační 
+            vyvrcholily 2019-10,11 schválením radou MČ a vedením SZM. 
+            Vedlejším zobecňujícím efektem bylo jednám zastupitelstva, 
+            které zavázalo Prahu 3 napříště zadávat vývoj softwaru pod svobodnu licencí.
+      - component: composition
+        class: column mygreen p-6 hodnoty
+        children:
+          - component: composition
+            class: columns
+            children:
+              - component: MDText
+                class: column
+                content: '## Naše hodnoty'
+              - component: MDText
+                class: column
+                content: '[více o nás](/o-nas)'
+          - component: hodnoty
+            list:
+              - title: Otevřenost
+                icon: http://data.vxk.cz/webom/icon-openness.svg
+                desc: Otevřenost nezisková organiazce, která pomáhá vyvinout Praha 3 pro svou potřebu a využila jej již ve třech dotačních ročnících.
+              - title: flexiblita
+                icon: http://data.vxk.cz/webom/icon-flexibility.svg
+                desc: Flexibilita nezisková organiazce, která pomáhá vyvinout Praha 3 pro svou potřebu a využila jej již ve třech dotačních ročnících.
+              - title: inovace
+                icon: http://data.vxk.cz/webom/icon-innovation.svg
+                desc: Inovace nezisková organiazce, která pomáhá vyvinout Praha 3 pro svou potřebu a využila jej již ve třech dotačních ročnících.
+  - component: composition
+    class: columns is-desktop mydarkblue mt-6 mycontact
+    children:
+      - component: MDText
+        class: column p-6
+        content: >
+          ## Chci řešení na míru
+
+          Lorem ipsum je označení pro standardní pseudolatinský text užívaný v grafickém designu.
+
+          - [vyvoj@otevrenamesta.cz](mailto:vyvoj@otevrenamesta.cz)
+      - component: MDText
+        class: column p-6
+        content: >
+          ## Chci se stát členem
+
+          Lorem ipsum je označení pro standardní pseudolatinský text užívaný v grafickém designu.
+
+          - [Clenstvi@otevrenamesta.cz](mailto:Clenstvi@otevrenamesta.cz)

@@ -6,8 +6,8 @@ children:
   - component: hero
     title: Partner pro digitalizaci samospráv
     content: |
-      Lorem ipsum pecializujeme se na Technickou, právní 
-      a manažerskou expertízu v oblasti digitalizace samospráv.
+      Specializujeme se na Technickou, právní 
+      a metodickou expertízu v oblasti digitalizace samospráv.
   - component: composition
     class: columns is-desktop mylightblue p-5
     children:
@@ -16,43 +16,42 @@ children:
         children:
           - component: MDText
             content: |
-              Lorem ipsum pecializujeme se na Technickou, právní a manažerskou
+              Specializujeme se na Technickou, právní a metodickou
               expertízu v oblasti digitalizace samospráv.
 
-              Máme bohaté zkušenosti s budováním aplikací na míru pro samosprávní celky
+              Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy
 
               ## nabízíme
           - component: iconedList
             list:
               - title: Konzultace
                 icon: http://data.vxk.cz/webom/KONZULTACE.svg
-                desc: Specializujeme se na Technickou, právní a manažerskou expertízu v oblasti digitalizace samospráv.
+                desc: Poskytujeme technickou, právní a metodickou podporu v oblasti digitalizace samospráv.
               - title: Vývoj software
                 icon: http://data.vxk.cz/webom/DEV.svg
-                desc: Máme bohaté zkušenosti s budováním aplikací na míru pro samosprávní celky.
+                desc: Nabízíme open source aplikace a nástroje pro samosprávy.
               - title: Znalostní databáze
                 icon: http://data.vxk.cz/webom/DB.svg
-                desc: Dělíme se o know-how existujících projektů, postupů a podnětů k opakovanému využití
+                desc: Znalosti, příklady dobré praxe a know-how k opakovanému využití pro samosprávné celky.
       - component: MDText
         class: column is-one-quarter is-flex is-flex-direction-column is-justify-content-space-around
         content: |
           ## naši partneři
 
-          [![operator ICT](http://data.vxk.cz/webom/logo-oict.svg)](http://www.seznam.cz)
+          [![operator ICT](http://data.vxk.cz/webom/logo-oict.svg)](https://operatorict.cz/)
           
-          [![Cesko digital](http://data.vxk.cz/webom/logo-cesko-digital.svg)](http://www.seznam.cz)
+          [![Cesko digital](http://data.vxk.cz/webom/logo-cesko-digital.svg)](https://cesko.digital/)
   - component: projectSection
     title: Cityvizor
     subtitle: Transparentní hospodaření pro každé město a obec
     content: |
-      Opensource projekt, původně z dílny Ministerstva financí ČR,
+      Opensource projekt původem z dílny Ministerstva financí ČR,
       přináší přehlednou vizualizaci rozpočtu obce s detailními daty
       až na úroveň jednotlivých faktur
-      a otevírá tím její hospodaření.
+      a otevírá tím její hospodaření obce pro občany i pro úřad samotný.
 
-      Lorem ipsum je označení pro standardní pseudolatinský text užívaný
-      v grafickém designu a navrhování jako demonstrativní výplňový text
-      při vytváření pracovních.
+      Cílem aplikace je zjednodušit přístup k informacím o hospodaření obcí a být
+      užitečným nástrojem obcím, jejich pracovníkům i široké veřejnosti. 
 
       ![img](https://cityvizor.cz/landing/img/logo.5ef0e965.svg)
     image: http://data.vxk.cz/webom/illustration-cityvizor.svg
@@ -61,29 +60,29 @@ children:
     switched: true
     subtitle: Podávání žádostí o obecní dotaci a jejich správa
     content: |
-      Dotační Software nechyla vyvinout Praha 3 pro svou potřebu
+      Dotační Software 2 nechala vyvinout Praha 3 pro svou potřebu
       a využila jej již ve třech dotačních ročnících.
-      Na členské schůzi spolku se nabidka jeho uvolnění i pro další
-      obce z úst Štěpána Štrébla setkala s příznivým ohlasem.
-      Městká část tedy zahájila potřebné kroky, které v rovině
-      politicko-organizační vyvrcholily 2019-10,11 schválením radou
-      MČ a vedením SZM.
+      Praha 3 následně nabídla Otevřeným městům uvolnění kódu jako open source
+      i pro další zájemce z řad samospráv.
 
-      Vedlejším zobecňujícím efektem bylo jednám zastupitelstva,
-      které zavázalo Prahu 3 napříště zadávat vývoj softwaru pod svobodnu licencí.
+      Cílem aplikace je zjednodušit proces tvorby dotačních žádostí pro úřad
+      a proces podávání žádosti o dotaci pro žadatele. Neméně důležitým cílem je i
+      digitalizace celého procesu a odbourání častého papírové procesu této agendy.
+
     image: http://data.vxk.cz/webom/illustration-dsw2.svg
   - component: projectSection
-    title: Paro 2
+    title: Participativní rozpočet
     subtitle: Participativní rozpočet pro občany samospráv
     content: |
-      Opensource projekt, původně z dílny Ministerstva financí ČR,
-      přináší přehlednou vizualizaci rozpočtu obce s detailními daty
-      až na úroveň jednotlivých faktur
-      a otevírá tím její hospodaření.
+      Aplikace Participativní rozpočet vychází z nejúspěšnějšího participativního rozpočtu
+      v ČR z dílny města Brna známým pod názvem "Dáme na Vás". Dáme na Vás je zajímavé zejména
+      propracovaným UX celého participativního procesu. Město Brno s cílem podpořit rozvoj
+      participace v českých městech opět nabídla Otevřeným městům uvolnění kódu jako open source
+      i pro další zájemce z řad samospráv.
 
-      Lorem ipsum je označení pro standardní pseudolatinský text užívaný
-      v grafickém designu a navrhování jako demonstrativní výplňový text
-      při vytváření pracovních.
+      Cílem aplikace je zjednodušit umožnit moderním a transparentním způsobem umožnit občanům
+      se podílet na rozhodování části rozpočtu obce a zvýšit tak míru participace obyvatelstva.
+
     image: http://data.vxk.cz/webom/illustration-paro2.svg
   - component: composition
     class: container>columns is-desktop
@@ -94,15 +93,17 @@ children:
         - component: MDText
           class: column is-half
           content: |
-            Jsme nezisková organiazce, která pomáhá vyvinout Praha 3
-            pro svou potřebu a využila jej již ve třech dotačních ročnících.
-            Na členské schůzi spolku se nabidka jeho uvolnění i pro další obce z úst
-            Štěpána Štrébla setkala s příznivým ohlasem.
+            Otevřená města jsou neziskovou organiazcí založenou s cílem rozvoje využití otevřených
+            řešení v rámci místních samospráv v České republice. K naplnění tohoto cíle slouží vývoj
+            vlastních open source aplikací, profesionální konsulting založený na technické, právní
+            a metodické podpoře a v neposlední řadě ve sdílení dobré praxe a v roli propojovatele
+            aktivních obcí se zájmem o digitalizaci.
 
-            Městká část tedy zahájila potřebné kroky, které v rovině politicko-organizační 
-            vyvrcholily 2019-10,11 schválením radou MČ a vedením SZM. 
-            Vedlejším zobecňujícím efektem bylo jednám zastupitelstva, 
-            které zavázalo Prahu 3 napříště zadávat vývoj softwaru pod svobodnu licencí.
+            Otevřená města jsou tak partnerem pro digitializaci místních samospráv, 
+            která napomáhají rozvoji digitálních úřadů v České republice, zvyšování povědomí o negativních jevech
+            digitalizace jako je vendor lock-in a obecně prosazování otevřenějšího, efektivnějšího a
+            transparentnějšího chodu obcí, měst a regionů v ČR.
+
       - component: composition
         class: column mygreen p-6 hodnoty
         children:
@@ -119,13 +120,13 @@ children:
             list:
               - title: Otevřenost
                 icon: http://data.vxk.cz/webom/icon-openness.svg
-                desc: Otevřenost nezisková organiazce, která pomáhá vyvinout Praha 3 pro svou potřebu a využila jej již ve třech dotačních ročnících.
+                desc: Otevřenost jako základní předpoklad našeho fungování, kdy se nejedná pouze o open source, ale i další právní metodická doporučení.
               - title: flexiblita
                 icon: http://data.vxk.cz/webom/icon-flexibility.svg
-                desc: Flexibilita nezisková organiazce, která pomáhá vyvinout Praha 3 pro svou potřebu a využila jej již ve třech dotačních ročnících.
+                desc: Flexibilita jako nedílná součást otevřenost a schopnost flexibilně reagovat na potřeby samospráv, aniž by docházelo k omezení např. skrze vendor lock-in.
               - title: inovace
                 icon: http://data.vxk.cz/webom/icon-innovation.svg
-                desc: Inovace nezisková organiazce, která pomáhá vyvinout Praha 3 pro svou potřebu a využila jej již ve třech dotačních ročnících.
+                desc: Inovace jako předpoklad konkurenceschopnosti našich řešení a aplikací.
   - component: composition
     class: columns is-desktop mydarkblue mt-6 mycontact
     children:
@@ -134,7 +135,7 @@ children:
         content: >
           ## Chci řešení na míru
 
-          Lorem ipsum je označení pro standardní pseudolatinský text užívaný v grafickém designu.
+          Potřebuji poradit, chci objednat jen jednu z aplikací nebo služeb. Neváhejte se na nás obrátit s Vaším dotazem.
 
           - [vyvoj@otevrenamesta.cz](mailto:vyvoj@otevrenamesta.cz)
       - component: MDText
@@ -142,6 +143,6 @@ children:
         content: >
           ## Chci se stát členem
 
-          Lorem ipsum je označení pro standardní pseudolatinský text užívaný v grafickém designu.
+          Neváhejte se zeptat, jak se stát členem naší organizace a napomoci tak digitalizace Vaší obce.
 
-          - [Clenstvi@otevrenamesta.cz](mailto:Clenstvi@otevrenamesta.cz)
+          - [Clenstvi@otevrenamesta.cz](mailto:clenstvi@otevrenamesta.cz)

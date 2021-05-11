@@ -18,7 +18,7 @@ $navbar-height: 4.5rem;
 // Update the sans-serif font family
 $defaultFont: "acumin-pro-wide";
 @import "./fonts";
-$family-sans-serif: "acumin-pro-wide", "Arial", sans-serif;
+$family-primary: "acumin-pro-wide", $family-sans-serif;
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
@@ -35,54 +35,11 @@ $primary-invert: $pink-invert;
 @import "node_modules/bulma/sass/helpers/_all";
 @import "node_modules/bulma/sass/layout/_all";
 
-.myhero {
-  position: relative;
-  background-image: url('http://data.vxk.cz/webom/hero-bg.png');
-  background-repeat: no-repeat;
-  background-position: right 20% top;
-  background-size: 70%;
-  background-clip: content-box;
-  min-height: 70vh;
-  margin-bottom: 3em;
-}
-.myhero .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 16%;
-}
-.myhero .socials {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-.myhero-content {
-  background: transparent url('http://data.vxk.cz/webom/hero-blue-bg.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
-  background-clip: padding-box;
-  position: absolute;
-  padding: 4em;
-  width: 60%;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-}
-.myhero-content h1 {
-  font: normal normal bold 60px/67px $defaultFont;
-  margin: .5em 0;
-  letter-spacing: -1.2px;
-  width: 70%;
-  color: #FFFFFF;
-}
+@import "./components/hero";
 
-.myhero-content p {
-  font: normal normal normal 18px/24px $defaultFont;
-  letter-spacing: 0px;
-  width: 60%;
-  color: #FFFFFF;
+
+.footer .logo {
+  max-width: 10em;
 }
 
 .hodnoty span.idx {
@@ -93,6 +50,9 @@ $primary-invert: $pink-invert;
 }
 .basicinfo h2 {
   margin: 2em 0;
+}
+.iconedList h3 {
+  text-transform: capitalize;
 }
 .basicinfo p {
   font: normal normal 600 28px/36px $defaultFont;

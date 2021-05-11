@@ -4,7 +4,7 @@ export default {
     <div class="container">
       <div class="columns">
       
-        <img class="column" src="http://data.vxk.cz/webom/logo-om.svg" />
+        <img class="column logo" src="http://data.vxk.cz/webom/logo-om.svg" />
         
         <div class="column">
           info@otevrenamesta.cz<br />

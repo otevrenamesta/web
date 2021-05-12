@@ -1,13 +1,13 @@
 export default {
   props: ['data'],
   template: `
-<div class="container myhero">
+<div class="myhero">
 
   <img class="logo" src="http://data.vxk.cz/webom/logo-om.svg" />
   
-  <div class="myhero-content">
-    <h1>{{ data.title }}</h1>
-    <div>
+  <div class="myhero-bluebox">
+    <div class="myhero-content">
+      <h1>{{ data.title }}</h1>
       <markdown :text="data.content" />
     </div>
   </div>

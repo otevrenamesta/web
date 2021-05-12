@@ -3,11 +3,14 @@ desc: stranka pro TS
 updated_at: 2021-01-18T12:47:37.254Z
 layout: default
 children:
-  - component: hero
-    title: Partner pro digitalizaci samospráv
-    content: |
-      Specializujeme se na Technickou, právní 
-      a metodickou expertízu v oblasti digitalizace samospráv.
+  - component: composition
+    class: container>columns myhero-container
+    children:
+      - component: hero
+        title: Partner pro digitalizaci samospráv
+        content: |
+          Specializujeme se na Technickou, právní 
+          a metodickou expertízu v oblasti digitalizace samospráv.
   - component: composition
     class: container>columns is-desktop mylightblue p-6
     children:
@@ -110,14 +113,10 @@ children:
       - component: composition
         class: column mygreen hodnoty
         children:
-          - component: composition
-            class: is-flex is-justify-content-space-between mb-4
-            children:
-              - component: MDText
-                content: '## Naše hodnoty'
-              - component: MDText
-                content: '[více o nás](/o-nas)'
           - component: hodnoty
+            class: m-6
+            title: Naše hodnoty
+            more: '[více o nás](/o-nas)'
             list:
               - title: Otevřenost
                 icon: http://data.vxk.cz/webom/icon-openness.svg

@@ -1,13 +1,12 @@
+<div>
 
-    <div class="container">
-      <section>
-        <h1>{{data.title}}</h1>
-      </section>
-      <div class="row">
-        <div class="col-12">
-          <component v-for="(i, idx) in data.children" :key="idx" 
-            :is="i.component" :data="i" :path="path + '.' + idx">
-          </component>
-        </div>
-      </div>
-    </div>
+  <section class="section">
+    <h1 class="title">{{data.title}}</h1>
+  </section>
+
+  <component v-for="(i, idx) in data.children" :key="idx" 
+    class="section"
+    :is="i.component" :data="i">
+  </component>
+
+</div>

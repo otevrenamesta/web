@@ -8,11 +8,11 @@
    "menu": [
      {
         "label": "O nás",
-        "link": "/o-nás"
+        "link": "/o-nas/"
      },
      {
         "label": "Projekty",
-        "link": "/projekty"
+        "link": "/projekty/"
      },
      {
         "label": "Stát se členem",

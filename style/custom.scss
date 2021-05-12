@@ -24,6 +24,7 @@ $family-primary: "acumin-pro-wide", $family-sans-serif;
 // Use the new pink as the primary color
 $primary: $dark-blue;
 $primary-invert: $pink-invert;
+$link: $my-green;
 
 // // 4. Import the rest of Bulma
 @import "node_modules/bulma/sass/utilities/_all";
@@ -41,6 +42,9 @@ $primary-invert: $pink-invert;
 
 .footer .logo {
   max-width: 10em;
+}
+.footer .socials {
+  font-size: 3em;
 }
 
 .basicinfo h2 {

@@ -3,47 +3,50 @@ desc: stranka pro TS
 updated_at: 2021-01-18T12:47:37.254Z
 layout: page
 children:
-  - component: MDText
-    class: content
-    content: |
-      Projektová rada je expertním orgánem Výboru Otevřených měst. 
-      Cílem projektové rady je diskutovat technické, produktové 
-      a infrastrukturní otázky spojené s digitalizací místních samospráv 
-      a předkládat stanoviska Výboru pro další směřování spolku. 
-      
-      Projektová rada je složena z expertů z různých oblastí digitalizace - 
-      od otevřených dat, po programátory až po produktové manažery. 
-      Rada se schází dvakrát do měsíce a v jejím vedením stojí Vedoucí projektové rady. 
-      Více o jednotlivých členech je možné zjistit v galerii.
+  - component: composition
+    class: container>columns>column
+    children:
+      - component: MDText
+        class: content
+        content: |
+          Projektová rada je expertním orgánem Výboru Otevřených měst. 
+          Cílem projektové rady je diskutovat technické, produktové 
+          a infrastrukturní otázky spojené s digitalizací místních samospráv 
+          a předkládat stanoviska Výboru pro další směřování spolku. 
+          
+          Projektová rada je složena z expertů z různých oblastí digitalizace - 
+          od otevřených dat, po programátory až po produktové manažery. 
+          Rada se schází dvakrát do měsíce a v jejím vedením stojí Vedoucí projektové rady. 
+          Více o jednotlivých členech je možné zjistit v galerii.
 
-      ## Členové
+          ## Členové
 
-      ### Václav Klecanda
-      ![Fotografie](https://wiki.pirati.cz/_media/lide/vaclav_klecanda.jpg?w=300&tok=c22b1c)
-      - LinkedIn (ideálně formou ikonky): https://www.linkedin.com/in/vaclav-klecanda-9796869/
-      - Životopis: http://www.vxk.cz/cv/
-      - Expertní oblasti: JS (full stack), excellent: express, react, mobX, webpack, cofeescript, angular, mithril, sass, less, leaflet, ES6, using standard.js
-      
-      ### Jáchym Čepický
-      ![Fotografie](https://pbs.twimg.com/profile_images/1376864769991446532/LDruCd1K.jpg) 
-      - Twitter (ideálně formou ikonky): https://twitter.com/jachymc 
-      - Životopis: https://www.linkedin.com/in/jachymcepicky/ 
-      - Expertní oblasti: PyWPS, GRASS GIS, QGIS, MapServer, PostGIS, GDAL, OWSLib, PyCSW, MapCache, OpenLayers, GeoServer
+          ### Václav Klecanda
+          ![Fotografie](https://wiki.pirati.cz/_media/lide/vaclav_klecanda.jpg?w=300&tok=c22b1c)
+          - LinkedIn (ideálně formou ikonky): https://www.linkedin.com/in/vaclav-klecanda-9796869/
+          - Životopis: http://www.vxk.cz/cv/
+          - Expertní oblasti: JS (full stack), excellent: express, react, mobX, webpack, cofeescript, angular, mithril, sass, less, leaflet, ES6, using standard.js
+          
+          ### Jáchym Čepický
+          ![Fotografie](https://pbs.twimg.com/profile_images/1376864769991446532/LDruCd1K.jpg) 
+          - Twitter (ideálně formou ikonky): https://twitter.com/jachymc 
+          - Životopis: https://www.linkedin.com/in/jachymcepicky/ 
+          - Expertní oblasti: PyWPS, GRASS GIS, QGIS, MapServer, PostGIS, GDAL, OWSLib, PyCSW, MapCache, OpenLayers, GeoServer
 
-      ### Martin Dvořák
-      ![Fotografie](https://pbs.twimg.com/profile_images/1255941167864258560/gdGaF2OX_400x400.jpg)
-      - Twitter (ideálně formou ikonky): https://twitter.com/dvoriik 
-      - Životopis: https://www.linkedin.com/in/martin-dvo%C5%99%C3%A1k-204382108/
-      - Expertní oblasti: GIS, open data, analytika
-      
-      ### Lenka Kováčová
-      ![Fotografie](https://www.irozhlas.cz/sites/default/files/styles/zpravy_facebook/public/uploader/lenka_kovacova_181108-161503_cib.jpg?itok=lMvTsDSl)
-      - Twitter (ideálně formou ikonky): https://twitter.com/panislovenka 
-      - Životopis: https://www.linkedin.com/in/lenka-kov%C3%A1%C4%8Dov%C3%A1-91743062/ 
-      - Expertní oblasti: open data, advocacy, product management, open government
-      
-      ### Lukáš Jelínek
-      ![Fotografie](https://akademie.nic.cz/akademie/lector/picture/nicauth/user_images/ljelinek.jpg)
-      - Twitter (ideálně formou ikonky): https://twitter.com/LukasJelinekKH 
-      - Životopis: https://www.linkedin.com/in/ljelinek/ 
-      - Expertní oblasti: C/C++, PHP, Java, GUI design and implementation, Linux kernel (incl. Windows-to-Linux driver porting), databases, networking technologies, health care IT
+          ### Martin Dvořák
+          ![Fotografie](https://pbs.twimg.com/profile_images/1255941167864258560/gdGaF2OX_400x400.jpg)
+          - Twitter (ideálně formou ikonky): https://twitter.com/dvoriik 
+          - Životopis: https://www.linkedin.com/in/martin-dvo%C5%99%C3%A1k-204382108/
+          - Expertní oblasti: GIS, open data, analytika
+          
+          ### Lenka Kováčová
+          ![Fotografie](https://www.irozhlas.cz/sites/default/files/styles/zpravy_facebook/public/uploader/lenka_kovacova_181108-161503_cib.jpg?itok=lMvTsDSl)
+          - Twitter (ideálně formou ikonky): https://twitter.com/panislovenka 
+          - Životopis: https://www.linkedin.com/in/lenka-kov%C3%A1%C4%8Dov%C3%A1-91743062/ 
+          - Expertní oblasti: open data, advocacy, product management, open government
+          
+          ### Lukáš Jelínek
+          ![Fotografie](https://akademie.nic.cz/akademie/lector/picture/nicauth/user_images/ljelinek.jpg)
+          - Twitter (ideálně formou ikonky): https://twitter.com/LukasJelinekKH 
+          - Životopis: https://www.linkedin.com/in/ljelinek/ 
+          - Expertní oblasti: C/C++, PHP, Java, GUI design and implementation, Linux kernel (incl. Windows-to-Linux driver porting), databases, networking technologies, health care IT

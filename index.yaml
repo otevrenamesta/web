@@ -9,8 +9,8 @@ children:
       - component: hero
         title: Partner pro digitalizaci samospráv
         content: |
-          Specializujeme se na Technickou, právní 
-          a metodickou expertízu v oblasti digitalizace samospráv.
+          Specializujeme se na technickou, právní 
+          a metodickou expertízu&nbsp;v oblasti digitalizace samospráv.
   - component: composition
     class: container>columns is-desktop mylightblue p-6
     children:
@@ -20,7 +20,7 @@ children:
           - component: MDText
             class: basicinfo
             content: |
-              Specializujeme se na Technickou, právní a metodickou
+              Specializujeme se na technickou, právní a metodickou
               expertízu v oblasti digitalizace samospráv.
 
               Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy
@@ -145,4 +145,4 @@ children:
 
           Neváhejte se zeptat, jak se stát členem naší organizace a napomoci tak digitalizace Vaší obce.
 
-          - [Clenstvi@otevrenamesta.cz](mailto:clenstvi@otevrenamesta.cz)
+          - [clenstvi@otevrenamesta.cz](mailto:clenstvi@otevrenamesta.cz)

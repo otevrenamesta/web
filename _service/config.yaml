@@ -1,0 +1,35 @@
+title: Otevřená města
+lang: cs
+twitter:
+facebook: https://www.facebook.com/otevrenamesta
+gitlab: https://gitlab.com/otevrenamesta
+github: https://github.com/otevrenamesta
+instagram:
+cdn: /cdn/
+menu:
+  - label: O nás
+    link: /o-nas/
+  - label: Spolupráce
+    link: /spoluprace
+  - label: Projekty
+    link: /projekty
+  - label: Aktuality
+    link: /aktuality
+  - label: Kontakt
+    link: /kontakt
+detailpages:
+  - path: /aktuality/
+    url: /uniapi/posts/?filter={"id":"{{ID}}"}
+    layout: postDetail
+    titleattr: title
+    children:
+      - component: newestItemsText
+        title: podobne clanky
+        pocet: 5
+        url: /uniapi/posts/
+  - path: /projekty/
+    url: /uniapi/projects/?filter={"id":"{{ID}}"}
+    layout: projectDetail
+    titleattr: title
+    children:
+      - component: chci

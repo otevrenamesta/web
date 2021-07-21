@@ -1,5 +1,15 @@
+const DetailLink = {
+  props: ['data'],
+  template: `
+  <router-link :to="data.link" class="block">
+    <button class="button is-large is-success">Zjistit více</button>
+  </router-link>
+  `
+}
+
 export default {
   props: ['data'],
+  components: { DetailLink },
   template: `
 <div class="columns mydarkblue mycontact">
   <div class="column p-6">
@@ -7,9 +17,8 @@ export default {
     <div class="content">
       Potřebuji poradit, chci objednat jen jednu z aplikací nebo služeb. 
       Neváhejte se na nás obrátit s Vaším dotazem.
-
-      <button>[vyvoj@otevrenamesta.cz](mailto:vyvoj@otevrenamesta.cz)</button>
     </div>
+    <DetailLink :data="data" />
   </div>
 
   <div class="column p-6">
@@ -17,9 +26,8 @@ export default {
     <div class="content">
       Neváhejte se zeptat, jak se stát členem naší organizace 
       a napomoci tak digitalizace Vaší obce.
-
-      <button>[clenstvi@otevrenamesta.cz](mailto:clenstvi@otevrenamesta.cz)</button>
     </div>
+    <DetailLink :data="data" />
   </div>
 </div>
   `

@@ -26,7 +26,7 @@ export default {
 
         <router-link :to="'/projekty/' + i.id">
           <button class="button is-primary">
-            Zjistit více <i class="fas fa-angle-right"></i>
+            Zjistit více
           </button>
         </router-link>
 

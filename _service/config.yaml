@@ -14,22 +14,21 @@ menu:
   - label: Projekty
     link: /projekty
   - label: Aktuality
-    link: /aktuality
+    link: /clanky
   - label: Kontakt
     link: /kontakt
 detailpages:
-  - path: /aktuality/
+  - path: /clanky/
     url: /uniapi/posts/?filter={"id":"{{ID}}"}
     layout: postDetail
     titleattr: title
     children:
-      - component: newestItemsText
-        title: podobne clanky
-        pocet: 5
-        url: /uniapi/posts/
+      - component: chci
+        link: /spoluprace
   - path: /projekty/
     url: /uniapi/projects/?filter={"id":"{{ID}}"}
     layout: projectDetail
     titleattr: title
     children:
       - component: chci
+        link: /spoluprace

@@ -1,21 +1,57 @@
-title: Kontakt
+title: Kontaktujte nás
 desc: stranka pro TS
 updated_at: 2021-01-18T12:47:37.254Z
 layout: page
 children:
-  - component: composition
-    class: container
-    children:
-      - component: MDText
-        class: content
-        content: |
-          __Specializujeme se na Technickou, právní a metodickou
-          expertízu v oblasti digitalizace samospráv.
-          Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy__
+  # - component: hero
+  #   title: Partner pro digitalizaci samospráv
+  #   content: |
+  #     Specializujeme se na technickou, právní 
+  #     a metodickou expertízu&nbsp;v oblasti digitalizace samospráv.
+  - component: MDText
+    class: content
+    content: |
+      [info@otevrenamesta.cz](mailto:info@otevrenamesta.cz)<br />
+      [vybor@otevrenemsta.cz](mailto:vybor@otevrenemsta.cz)
 
-          ## [Projektová rada](projektova-rada)
+      Otevřená města, z.s.<br />
+      Malinovského náměstí 624/3<br />
+      602 00 Brno<br />
 
-          Projektová rada je expertním orgánem Výboru Otevřených měst. 
-          Cílem projektové rady je diskutovat technické, produktové 
-          a infrastrukturní otázky spojené s digitalizací místních samospráv 
-          a předkládat stanoviska Výboru pro další směřování spolku. 
+      datová schránka: f47yb4g<br />
+      IČO: 05129061<br />
+      DIČ: CZ05129061<br />
+      transparentní účet Fio: [2501020615/2010](https://ib.fio.cz/ib/transparent?a=2501020615)<br />
+      IBAN: CZ3920100000002501020615
+  - component: peopleList
+    name: Lidi z výboru
+    list:
+      - name: Lucie Smolka
+        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        position: Předseda
+        email: lucie.smolka@otevrenamesta.cz
+        tel: +420 ...
+      - name: Jiří Marek
+        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        position: Místopředseda
+        email: jiri.marek@otevrenamesta.cz
+        tel: +420 ...
+      - name: Lucie Smolka
+        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        position: Předseda
+        email: lucie.smolka@otevrenamesta.cz
+        tel: +420 ...
+      - name: Lucie Smolka
+        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        position: Předseda
+        email: lucie.smolka@otevrenamesta.cz
+        tel: +420 ...
+  # - component: peopleList
+  #   name: Kontrolor
+  #   list:
+  #     - name: Martin Šebek
+  #       image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+  #       position: Předseda
+  #       email: lucie.smolka@otevrenamesta.cz
+  #       tel: +420 ...
+        

@@ -5,18 +5,18 @@ export default {
       <div class="columns is-desktop">
       
         <img class="column is-2 logo" src="http://data.vxk.cz/webom/logo-om.svg" />
+
+        <div class="column is-3">
+          <b>Otevřená města, z. s. </b><br />
+          Malinovského náměstí 624/3<br />
+          602 00 Brno
+        </div>
         
         <div class="column is-3">
-          info@otevrenamesta.cz<br />
+        <b>info@otevrenamesta.cz</b><br />
           datová schránka f47yb4g<br />
           transparentní účet Fio 2501020615/2010<br />
           IČO 05129061<br />
-        </div>
-
-        <div class="column is-3">
-          Otevřená města, z. s. <br />
-          Malinovského náměstí 624/3<br />
-          602 00 Brno
         </div>
 
         <div class="column is-4 socials">

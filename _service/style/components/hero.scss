@@ -16,14 +16,14 @@
 }
 .myhero-container {
   position: relative;
-  background-image: url('http://data.vxk.cz/webom/hero-bg.png');
+  background-image: url('/cdn/api/resize?url=http%3A%2F%2Fdata.vxk.cz%2Fwebom%2Fhero-bg.png');
   background-repeat: no-repeat;
   background-position: right 20% top;
   background-size: 70%;
   background-clip: content-box;
 }
 .myhero-bluebox {
-  background: transparent url('http://data.vxk.cz/webom/hero-blue-bg.svg');
+  background: transparent url('/cdn/api/resize?url=http%3A%2F%2Fdata.vxk.cz%2Fwebom%2Fhero-blue-bg.svg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;

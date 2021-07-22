@@ -1,21 +1,31 @@
-title: Spolupráce
+title: možnosti spolupráce
 desc: stranka pro TS
 updated_at: 2021-01-18T12:47:37.254Z
 layout: page
 children:
   - component: composition
-    class: container
+    class: container>columns is-desktop mylightblue p-6
     children:
-      - component: MDText
-        class: content
-        content: |
-          __Specializujeme se na Technickou, právní a metodickou
-          expertízu v oblasti digitalizace samospráv.
-          Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy__
+      - component: composition
+        class: column is-three-quarters
+        children:
+          - component: MDText
+            class: basicinfo
+            content: |
+              Specializujeme se na technickou, právní a metodickou
+              expertízu v oblasti digitalizace samospráv.
 
-          ## [Projektová rada](projektova-rada)
+              Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy
 
-          Projektová rada je expertním orgánem Výboru Otevřených měst. 
-          Cílem projektové rady je diskutovat technické, produktové 
-          a infrastrukturní otázky spojené s digitalizací místních samospráv 
-          a předkládat stanoviska Výboru pro další směřování spolku. 
+              ## jak postupovat
+          - component: iconedList
+            list:
+              - title: Konzultace
+                icon: http://data.vxk.cz/webom/KONZULTACE.svg
+                desc: Poskytujeme technickou, právní a metodickou podporu v oblasti digitalizace samospráv.
+              - title: Vývoj software
+                icon: http://data.vxk.cz/webom/DEV.svg
+                desc: Nabízíme open source aplikace a nástroje pro samosprávy.
+              - title: Znalostní databáze
+                icon: http://data.vxk.cz/webom/DB.svg
+                desc: Znalosti, příklady dobré praxe a know-how k opakovanému využití pro samosprávné celky.

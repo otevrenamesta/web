@@ -12,7 +12,7 @@ export default {
       </div>
 
       <div class="column">
-        <img class="column is-quarter" :src="data.image" />
+        <img class="column is-quarter" :src="$store.getters.mediaUrl(data.image)" />
       </div>
 
     </div>

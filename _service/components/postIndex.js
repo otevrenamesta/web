@@ -34,9 +34,9 @@ export default {
             <h3 class="title">{{ i.title }}</h3>        
             <h4 class="subtitle">{{ i.perex }}</h4>
     
-            <router-link :to="'/aktuality/' + i.id">
+            <router-link :to="'/clanky/' + i.id">
               <button class="button is-primary">
-                zjistit více
+                číst více
               </button>
             </router-link>
 

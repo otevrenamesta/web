@@ -3,7 +3,7 @@ export default {
   template: `
 <div class="myhero">
 
-  <img class="logo" src="http://data.vxk.cz/webom/logo-om.svg" />
+  <img class="logo" :src="$store.getters.mediaUrl('http://data.vxk.cz/webom/logo-om.svg')" />
   
   <div class="myhero-bluebox">
     <div class="myhero-content">

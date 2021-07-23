@@ -30,28 +30,28 @@ children:
         image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
         position: Předseda
         email: lucie.smolka@otevrenamesta.cz
-        tel: +420 ...
+        tel: +420 731 123 644
       - name: Jiří Marek
         image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
         position: Místopředseda
         email: jiri.marek@otevrenamesta.cz
-        tel: +420 ...
+        tel: +420 602 570 184
       - name: Štěpán Štrébl
         image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
         position: Člen výboru
-        email: lucie.smolka@otevrenamesta.cz
-        tel: +420 ...
+        email: stepan.strebl@otevrenamesta.cz
+        tel: +420 776 764 422
       - name: Jiří Hlavenka
         image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
         position: Člen výboru
-        email: lucie.smolka@otevrenamesta.cz
-        tel: +420 ...
+        email: jiri.hlavenka@otevrenamesta.cz
+        tel: +420 602 161 444
   # - component: peopleList
   #   name: Kontrolor
   #   list:
   #     - name: Martin Šebek
   #       image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
-  #       position: Předseda
-  #       email: lucie.smolka@otevrenamesta.cz
-  #       tel: +420 ...
+  #       position: Kontrolor
+  #       email: 
+  #       tel: +420 601 577 256
         

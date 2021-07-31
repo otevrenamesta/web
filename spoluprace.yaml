@@ -77,10 +77,10 @@ children:
       závazků ke spolku a zdarma. 
       Otevřené kódy Otevřených města naleznete na GitHubu a GitLabu.
   - component: composition
-    class: columns mylightblue p-6
+    class: columns mylightblue p-6 is-8
     children:
       - component: MDText
-        class: column content
+        class: column is-6 content is-align-self-center
         content: |
           ## Spolupracujte s námi
 
@@ -89,19 +89,45 @@ children:
           jak nejlépe vyhovět Vašim požadavkům:
       - component: contactform
         controls:
-          - name: from
+          - name: jmeno
+            class: is-6
+            label: jméno
+            component: input
+            placeholder: sem prosím Vaši emailovou adresu
+          - name: mesto
+            class: is-6
+            label: obec
+            component: input
+            placeholder: sem prosím Vaši emailovou adresu
+          - name: email
+            class: is-6
             label: emailová adresa
             component: input
-            placeholder: sem prosím Vaši emailovou adresu pro případný zpětný kontakt
+            placeholder: sem prosím Vaši emailovou adresu
             type: email
+          - name: tel
+            class: is-6
+            label: telefon
+            component: input
+            placeholder: sem prosím Váš telefon
           - name: subject
             label: předmět
-            component: input
+            class: is-6
+            component: select
+            options:
+              - text: Zájem o členství
+                value: clenstvi
+              - text: Zájem o produkty
+                value: produkty
+              - text: Otázka k otevřenému kódu
+                value: kod
             placeholder: sem patří předmět zprávy
-          - name: text
+          - name: content
             label: zpráva
             component: textarea
-            rows: 4
+            class: is-12
+            rows: 5
             placeholder: sem napište zprávu
+        api: https://new.otevrenamesta.cz/uniapi/messages/
         url: /api/contactforms/
-        to: milena.soukupova@mutabor.cz
+        extratext: Potvrzení o zpracování osobních údajů

@@ -32,17 +32,17 @@ children:
         email: lucie.smolka@otevrenamesta.cz
         tel: +420 731 123 644
       - name: Jiří Marek
-        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        image: https://new.otevrenamesta.cz/cdn/api/resize/?url=/cdn/5/jiri_marek_fix.jpg&w=150
         position: Místopředseda
         email: jiri.marek@otevrenamesta.cz
         tel: +420 602 570 184
       - name: Štěpán Štrébl
-        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        image: https://new.otevrenamesta.cz/cdn/api/resize/?url=/cdn/6/stepan_strebl_fix.jpg&w=150
         position: Člen výboru
         email: stepan.strebl@otevrenamesta.cz
         tel: +420 776 764 422
       - name: Jiří Hlavenka
-        image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+        image: https://new.otevrenamesta.cz/cdn/api/resize/?url=/cdn/4/jiri_hlavenka_fix.jpg&w=150
         position: Člen výboru
         email: jiri.hlavenka@otevrenamesta.cz
         tel: +420 602 161 444

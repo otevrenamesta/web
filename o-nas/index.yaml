@@ -1,21 +1,84 @@
 title: O nás
-desc: stranka pro TS
+desc: Představení týmu, struktury a expertů Otevřených měst
 updated_at: 2021-01-18T12:47:37.254Z
 layout: page
 children:
+  - component: MDText
+    class: content
+    content: |
+      Otevřená města jsou neziskovou organizací založenou s cílem rozvoje využití 
+      otevřených řešení v rámci místních samospráv a obecně prosazování otevřenějšího, 
+      efektivnějšího a transparentnějšího chodu obcí, měst a regionů v České republice. 
+      
+      K naplnění tohoto cíle vyvíjí nebo spravují vlastní open source aplikace nebo 
+      poskytují profesionální konsulting založený na technické, 
+      právní a metodické podpoře. 
+      
+      V neposlední řadě se organizace věnuje sdílení dobré praxe, 
+      svými aktivitami zvyšuje povědomí o negativních jevech digitalizace 
+      jako je např. vendor lock-in a působí jako propojovatel aktivních obcí 
+      se zájmem o digitalizaci v ČR.
+  - component: cisilka
+    items:
+      - num: 19 
+        subtitle: členů
+        content: Otevřená města jsou nyní složena z 19 členů z různých úrovní samospráv v ČR
+      - num: 755 705 
+        subtitle: obyvatel
+        content: Otevřená města mají dopad na 755705 obyvatel členských obcí/samospráv
+      - num: 3 
+        subtitle: produkty
+        content: Otevřená města nyní spravují v produkci softwarové produkty jako nástroje digitalizace místních samospráv
+      - num: 1 
+        subtitle: mil. Kč
+        content: Otevřená města nyní hospodaří s přibližně 1 mil. Kč.
   - component: composition
-    class: container
+    class: columns
     children:
       - component: MDText
-        class: content
+        class: content column is-4 is-align-self-center
         content: |
-          __Specializujeme se na Technickou, právní a metodickou
-          expertízu v oblasti digitalizace samospráv.
-          Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy__
+          ![logo](/lgo)
 
-          ## [Projektová rada](projektova-rada)
+          ## Struktura
 
-          Projektová rada je expertním orgánem Výboru Otevřených měst. 
-          Cílem projektové rady je diskutovat technické, produktové 
-          a infrastrukturní otázky spojené s digitalizací místních samospráv 
-          a předkládat stanoviska Výboru pro další směřování spolku. 
+          Struktura Otevřených měst se skládá ze 4 hlavních částí, 
+          kterými jsou výbor, projektová rada, kontrolor a členská schůze. 
+          Všechny části spolu vzájemné komunikují a mají rozdělené komptence.
+      - component: MDText
+        class: content column
+        content: |
+          #### 00 Výbor
+          Výbor Otevřených měst je statutární a hlavní výkonný orgán spolku, který zajišťuje jeho strategické směřování a vizi. Výbor je 5-ti členný a jeho členy jsou experti z digitalizace samospráv nebo zástupci vybraných členských obcí. Výbor je volen členskou schůzí na dobu 2 let.
+
+          #### 01 Projektová rada
+          Projektová rada Otevřených měst slouží jako expertní poradní orgán pro výbor otevřených měst. Zaměřuje se na expertní podporu v odborných záležitostech působnosti spolku a v projektovém řízení. Jedná se o orgán složený z vybraných expertů se zkušeností s digitalizací samospráv, open dat, právními a kyberbezpečnostními otázkami. Projektová rada je volena výbor na období 2 let.
+
+          #### 02 Kontrolor
+          Kontrolor je kontrolním orgánem spolku. Kontrolor nesmí být členem jiného orgánu spolku. Může být zvoleno i více kontrolorů, pak jedná každý samostatně. Kontrolor má přístup ke všem dokumentům spolku a dohlíží na hospodaření spolku a jeho činnost je zejména dohledová. 
+
+          #### 03 Členská schůze
+          Členská schůze je nejvyšší orgán spolku, který zastupuje zájmy členských samospráv. Volí a odvolává výbor. Členská schůze je složena ze všech členů, kteří splní požadavky pro přístup do spolku.
+  - component: peopleList
+    name: Lidi z výboru
+    list:
+      - name: Lucie Smolka
+        image: /cdn/api/resize/?url=/cdn/6/stepan_strebl_fix.jpg&w=150
+        position: Předseda
+        email: lucie.smolka@otevrenamesta.cz
+        tel: +420 731 123 644
+      - name: Jiří Marek
+        image: /cdn/api/resize/?url=/cdn/5/jiri_marek_fix.jpg&w=150
+        position: Místopředseda
+        email: jiri.marek@otevrenamesta.cz
+        tel: +420 602 570 184
+      - name: Štěpán Štrébl
+        image: /cdn/api/resize/?url=/cdn/6/stepan_strebl_fix.jpg&w=150
+        position: Člen výboru
+        email: stepan.strebl@otevrenamesta.cz
+        tel: +420 776 764 422
+      - name: Jiří Hlavenka
+        image: /cdn/api/resize/?url=/cdn/4/jiri_hlavenka_fix.jpg&w=150
+        position: Člen výboru
+        email: jiri.hlavenka@otevrenamesta.cz
+        tel: +420 602 161 444

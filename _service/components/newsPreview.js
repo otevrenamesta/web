@@ -40,18 +40,17 @@ export default {
 
   <div v-if="loaded" class="columns is-multiline">
 
-    <div v-for="i,idx in items" :key="idx" class="column">
-
-      <h2 class="subtitle is-7">
+    <div v-for="i,idx in items" :key="idx" class="column content is-small">
+      <h4>
         <time datetime="2016-1-1">{{ i.published | longDate }}</time>
-      </h2>
-      <h1 class="title is-4">{{ i.title }}</h1>
-      <div class="content"><markdown :text="i.perex" /></div>
-
+      </h4>
+      <h1>{{ i.title }}</h1>
+      <p><markdown :text="i.perex" /></p>
+      <p>
       <router-link :to="data.detail_link + '/' + i.id">
         <button class="button">číst více</button>
       </router-link>
-      
+      </p>
   </div>
 
 </div>

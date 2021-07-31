@@ -4,15 +4,24 @@ updated_at: 2021-01-18T12:47:37.254Z
 layout: default
 children:
   - component: composition
-    class: container>columns myhero-container
+    class: container
     children:
-      - component: hero
-        title: Partner pro digitalizaci samospráv
+      - component: MDText
+        class: section content
         content: |
-          Specializujeme se na technickou, právní
-          a metodickou expertízu&nbsp;v oblasti digitalizace samospráv.
+          # Otevřená města
+
+          ## Partner pro digitalizaci samospráv
+  # - component: composition
+  #   class: container>columns myhero-container
+  #   children:
+  #     - component: hero
+  #       title: Partner pro digitalizaci samospráv
+  #       content: |
+  #         Specializujeme se na technickou, právní
+  #         a metodickou expertízu&nbsp;v oblasti digitalizace samospráv.
   - component: composition
-    class: container>columns is-desktop mylightblue p-6
+    class: container section>columns is-desktop mylightblue p-6
     children:
       - component: composition
         class: column is-three-quarters
@@ -92,7 +101,7 @@ children:
 
   #   image: http://data.vxk.cz/webom/illustration-paro2.svg
   - component: composition
-    class: container>columns is-desktop
+    class: container section>columns is-desktop
     children:
       - component: composition
         class: column myyellow circle basicinfo2
@@ -127,10 +136,27 @@ children:
               - title: inovace
                 icon: http://data.vxk.cz/webom/icon-innovation.svg
                 desc: Inovace jako předpoklad konkurenceschopnosti našich řešení a aplikací.
+  - component: composition
+    class: container section
+    children:
+      - component: cisilka
+        items:
+          - num: 19 
+            subtitle: členů
+            content: Otevřená města jsou nyní složena z 19 členů z různých úrovní samospráv v ČR
+          - num: 755 705 
+            subtitle: obyvatel
+            content: Otevřená města mají dopad na 755705 obyvatel členských obcí/samospráv
+          - num: 3 
+            subtitle: produkty
+            content: Otevřená města nyní spravují v produkci softwarové produkty jako nástroje digitalizace místních samospráv
+          - num: 1 
+            subtitle: mil. Kč
+            content: Otevřená města nyní hospodaří s přibližně 1 mil. Kč.
   - component: newsPreview
-    class: mydarkblue p-6
+    class: container section mydarkblued
     title: Aktuálně
-    pocet: 5
+    pocet: 4
     url: /uniapi/posts/
     detail_title: Přejít na všechny články
     detail_link: /clanky

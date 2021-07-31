@@ -2,7 +2,7 @@ export default {
   props: ['data'],
   template: `
   <div class="peopleList">
-    <h2 class="title is-3">{{ data.name }}<h2>
+    <h2 class="title is-3">{{ data.name }}</h2>
     <div class="columns">
       <div v-for="i, idx in data.list" class="column">
         <img :src="i.image" />

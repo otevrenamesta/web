@@ -4,7 +4,7 @@ updated_at: 2021-01-18T12:47:37.254Z
 layout: page
 children:
   - component: composition
-    class: container>columns is-desktop mylightblue p-6
+    class: columns mylightblue p-6
     children:
       - component: composition
         class: column is-three-quarters
@@ -12,20 +12,96 @@ children:
           - component: MDText
             class: basicinfo
             content: |
-              Specializujeme se na technickou, právní a metodickou
-              expertízu v oblasti digitalizace samospráv.
-
-              Máme bohaté zkušenosti s budováním open source aplikací pro samosprávy
-
-              ## jak postupovat
+              Spolupráce je možná třemi způsoby ...
           - component: iconedList
             list:
-              - title: Konzultace
+              - title: stát se členem spolku
                 icon: http://data.vxk.cz/webom/KONZULTACE.svg
-                desc: Poskytujeme technickou, právní a metodickou podporu v oblasti digitalizace samospráv.
-              - title: Vývoj software
+                # desc: Poskytujeme technickou, právní a metodickou podporu v oblasti digitalizace samospráv.
+              - title: koupit si produkt jako SaaS
                 icon: http://data.vxk.cz/webom/DEV.svg
-                desc: Nabízíme open source aplikace a nástroje pro samosprávy.
-              - title: Znalostní databáze
+                # desc: Nabízíme open source aplikace a nástroje pro samosprávy.
+              - title: rozchodit jako open source
                 icon: http://data.vxk.cz/webom/DB.svg
-                desc: Znalosti, příklady dobré praxe a know-how k opakovanému využití pro samosprávné celky.
+                # desc: Znalosti, příklady dobré praxe a know-how k opakovanému využití pro samosprávné celky.
+  - component: MDText
+    class: content
+    content: |
+      ## Otestování produktu
+
+      Vyberte produkt, který by se Vám líbil a napište na jeho podporu.
+      Umožníme Vám produkt otestovat v základní verzi, abyste věděli, co umí.
+      Na základě testování se rozhodnete, jaká forma spolupráce je pro Vás ta nejlepší
+
+      ## Stát se členem
+
+      Pokud je pro Vás téma digitalizace Vaší samosprávy důležitým témat, 
+      rádi Vás přivítáme jako člena našeho spolku. 
+      Díky tomu získáte řadu výhod 
+      a budete mít přímo možnost ovlivňovat směřování našich aktivit.
+
+      ### Benefity
+
+      - Rozhodování o činnosti spolku: Člen spolku může přímo rozhodovat o směřování spolku a jasně tak vyjádřit svoje preference a názory na digitalizaci místních samospráv
+      - Sdílení know-how: Členové jsou zváni na speciální akce a školení a mohou sdílet mezi sebou know-how, co funguje a co naopak nefunguje v oblasti digitalizace samospráv.
+      - Slevy na produktech: Služby, které si v rámci členství objednáte jsou zvýhodněny oproti cenám pro nečleny.
+      - Průběžné scanování: V rámci členství získáte zdarma službu průběžné scanování jako základní obranu proti nejčastějším kybernetickým hrozbám Vaší samosprávy.
+
+      #### Členský poplatek
+
+      Členský poplatek se vypočítává jako 1,50 Kč za obyvatele Vaší obce.
+
+      ## Nákup služeb
+
+      Pokud byste chtěli využít jen některý z našich produktů a zatím si spolupráci 
+      jen vyzkoušet než se stanete případně členy spolku, 
+      neváhejte poptat některou ze služeb, kterou nabízíme samostatně.
+
+      ### Benefity
+
+      - Unikátnost projektů: Naše služby jsou speciálně tvořeny pro samosprávy. 
+        Často tvoříme produkty přímo se samosprávami, věříme proto, 
+        že budou velmi zajímavé i pro další obce a města.
+      - Pomoc IT expertů: Budete mít přístup k našim specialistům na IT produkty pro samosprávy a budete se s nimi moci pobavit o konkrétních problémem digitalizace Vaší obce.
+      - Bez závazků: Služby si můžete vyzkoušet bez závazků, prostě uvidíte, zda Vám to vyhovuje nebo ne.
+
+      ### Ceník
+
+      Ceníky našich služeb jsou dostupný zde: odkaz na pdfko, kde to bude napsané
+
+      ## Využití zdrojových kódů
+
+      Abychom efektivně bojovali s tématikou vendor-lock in v rámci samospráv v ČR, 
+      tak každý produkt je Open Source a tedy pokud máte kapacity na to si produkt 
+      nastavit sami, můžete využít kódu aplikace a produkt si nasadit u sebe bez 
+      závazků ke spolku a zdarma. 
+      Otevřené kódy Otevřených města naleznete na GitHubu a GitLabu.
+  - component: composition
+    class: columns mylightblue p-6
+    children:
+      - component: MDText
+        class: column content
+        content: |
+          ## Spolupracujte s námi
+
+          Věříme, že Vás spolupráce s zaujala, 
+          nevahejte se nám pomocí konktatního formuláře ozvat, abychom se pobavili, 
+          jak nejlépe vyhovět Vašim požadavkům:
+      - component: contactform
+        controls:
+          - name: from
+            label: emailová adresa
+            component: input
+            placeholder: sem prosím Vaši emailovou adresu pro případný zpětný kontakt
+            type: email
+          - name: subject
+            label: předmět
+            component: input
+            placeholder: sem patří předmět zprávy
+          - name: text
+            label: zpráva
+            component: textarea
+            rows: 4
+            placeholder: sem napište zprávu
+        url: /api/contactforms/
+        to: milena.soukupova@mutabor.cz

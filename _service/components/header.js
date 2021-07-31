@@ -7,6 +7,12 @@ export default {
 <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
+
+      <router-link class="navbar-item" to="/">
+        <img :src="$store.getters.mediaUrl('http://data.vxk.cz/webom/logo-om.svg')" 
+          :alt="$store.state.site.title" />
+      </router-link>
+
       <a role="button" class="navbar-burger" aria-label="menu"
             :class="expanded ? 'is-active' : ''"
             @click="expanded = !expanded">

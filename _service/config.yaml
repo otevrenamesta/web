@@ -17,18 +17,17 @@ menu:
     link: /clanky
   - label: Kontakt
     link: /kontakt
+globalComponents:
+  - paginator
 detailpages:
-  - path: /clanky/
-    url: /uniapi/posts/?filter={"id":"{{ID}}"}
-    layout: postDetail
-    titleattr: title
-    children:
-      - component: chci
-        link: /spoluprace
-  - path: /projekty/
-    url: /uniapi/projects/?filter={"id":"{{ID}}"}
-    layout: projectDetail
-    titleattr: title
-    children:
-      - component: chci
-        link: /spoluprace
+  - path: /clanky/:id
+    component: ./components/detailPages/post.js
+  - path: /projekty/:id
+    component: ./components/detailPages/project.js
+    # children:
+    #   - component: chci
+    #     link: /
+  - path: /clanky
+    component: ./components/listPages/posts.js
+  - path: /projekty
+    component: ./components/listPages/projects.js

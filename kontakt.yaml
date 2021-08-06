@@ -28,7 +28,7 @@ children:
     list:
       - name: Lucie Smolka
         image: /cdn/api/resize/?url=/cdn/6/stepan_strebl_fix.jpg&w=150
-        position: Předseda
+        position: Předsedkyně
         email: lucie.smolka@otevrenamesta.cz
         tel: +420 731 123 644
       - name: Jiří Marek

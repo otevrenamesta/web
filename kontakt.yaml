@@ -50,7 +50,7 @@ children:
   #   name: Kontrolor
   #   list:
   #     - name: Martin Šebek
-  #       image: https://www.baumax.cz/gfx/baumax/_thumbs/sklep_oferta/49269/stropni_lista_m23_2x2_3x200_cm,a4p0v5ebqFTw4Yiqmplna6tqhnl6l56j-jpg.webp
+  #       image: /cdn/api/resize/?url=/cdn/8/martin_sebek_fix.jpg&w=150
   #       position: Kontrolor
   #       email: 
   #       tel: +420 601 577 256

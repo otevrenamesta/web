@@ -157,6 +157,6 @@ children:
     class: container section mydarkblued
     title: Aktuálně
     pocet: 4
-    url: /uniapi/posts/
+    url: /api/uni/posts/
     detail_title: Přejít na všechny články
     detail_link: /clanky

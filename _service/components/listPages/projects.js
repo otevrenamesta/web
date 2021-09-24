@@ -8,7 +8,7 @@ export default {
   },
   created: async function () {
     try {
-      const dataReq = await axios.get('/uniapi/projects/', { params: {
+      const dataReq = await axios.get('/api/uni/projects/', { params: {
         sort: 'title:asc',
         currentPage: 1,
         perPage: 3

@@ -128,6 +128,6 @@ children:
             class: is-12
             rows: 5
             placeholder: sem napište zprávu
-        api: https://new.otevrenamesta.cz/uniapi/messages/
+        api: /api/uni/messages/
         url: /api/contactforms/
         extratext: Potvrzení o zpracování osobních údajů
